@@ -10,3 +10,15 @@ C:\Users\javit\source\repos\ModelsSonarApi\obj\Debug\net6.0\ModelsApi.dll
 C:\Users\javit\source\repos\ModelsSonarApi\obj\Debug\net6.0\refint\ModelsApi.dll
 C:\Users\javit\source\repos\ModelsSonarApi\obj\Debug\net6.0\ModelsApi.pdb
 C:\Users\javit\source\repos\ModelsSonarApi\obj\Debug\net6.0\ref\ModelsApi.dll
+C:\Users\javit\source\repos\ApiGenerica\ModelsSonarApi\bin\Debug\net6.0\ModelsApi.deps.json
+C:\Users\javit\source\repos\ApiGenerica\ModelsSonarApi\bin\Debug\net6.0\ModelsApi.dll
+C:\Users\javit\source\repos\ApiGenerica\ModelsSonarApi\bin\Debug\net6.0\ModelsApi.pdb
+C:\Users\javit\source\repos\ApiGenerica\ModelsSonarApi\obj\Debug\net6.0\ModelsApi.csproj.AssemblyReference.cache
+C:\Users\javit\source\repos\ApiGenerica\ModelsSonarApi\obj\Debug\net6.0\ModelsApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\javit\source\repos\ApiGenerica\ModelsSonarApi\obj\Debug\net6.0\ModelsApi.AssemblyInfoInputs.cache
+C:\Users\javit\source\repos\ApiGenerica\ModelsSonarApi\obj\Debug\net6.0\ModelsApi.AssemblyInfo.cs
+C:\Users\javit\source\repos\ApiGenerica\ModelsSonarApi\obj\Debug\net6.0\ModelsApi.csproj.CoreCompileInputs.cache
+C:\Users\javit\source\repos\ApiGenerica\ModelsSonarApi\obj\Debug\net6.0\ModelsApi.dll
+C:\Users\javit\source\repos\ApiGenerica\ModelsSonarApi\obj\Debug\net6.0\refint\ModelsApi.dll
+C:\Users\javit\source\repos\ApiGenerica\ModelsSonarApi\obj\Debug\net6.0\ModelsApi.pdb
+C:\Users\javit\source\repos\ApiGenerica\ModelsSonarApi\obj\Debug\net6.0\ref\ModelsApi.dll

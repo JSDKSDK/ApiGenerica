@@ -1,0 +1,12 @@
+C:\Users\javit\source\repos\ApiGenerica\DAOApi\bin\Debug\net6.0\DAOApi.deps.json
+C:\Users\javit\source\repos\ApiGenerica\DAOApi\bin\Debug\net6.0\DAOApi.dll
+C:\Users\javit\source\repos\ApiGenerica\DAOApi\bin\Debug\net6.0\DAOApi.pdb
+C:\Users\javit\source\repos\ApiGenerica\DAOApi\obj\Debug\net6.0\DAOApi.csproj.AssemblyReference.cache
+C:\Users\javit\source\repos\ApiGenerica\DAOApi\obj\Debug\net6.0\DAOApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\javit\source\repos\ApiGenerica\DAOApi\obj\Debug\net6.0\DAOApi.AssemblyInfoInputs.cache
+C:\Users\javit\source\repos\ApiGenerica\DAOApi\obj\Debug\net6.0\DAOApi.AssemblyInfo.cs
+C:\Users\javit\source\repos\ApiGenerica\DAOApi\obj\Debug\net6.0\DAOApi.csproj.CoreCompileInputs.cache
+C:\Users\javit\source\repos\ApiGenerica\DAOApi\obj\Debug\net6.0\DAOApi.dll
+C:\Users\javit\source\repos\ApiGenerica\DAOApi\obj\Debug\net6.0\refint\DAOApi.dll
+C:\Users\javit\source\repos\ApiGenerica\DAOApi\obj\Debug\net6.0\DAOApi.pdb
+C:\Users\javit\source\repos\ApiGenerica\DAOApi\obj\Debug\net6.0\ref\DAOApi.dll

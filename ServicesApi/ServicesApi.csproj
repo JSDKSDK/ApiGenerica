@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AccessControl\AccessControl.csproj" />
+    <ProjectReference Include="..\DAOApi\DAOApi.csproj" />
     <ProjectReference Include="..\ModelsSonarApi\ModelsApi.csproj" />
   </ItemGroup>
 

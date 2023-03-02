@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using ModelsApi.Models;
 using ModelsSonarApi.Models;
 using ServicesApi.Services;
+using System.Net;
 
 namespace Api.Controllers
 {
@@ -15,20 +17,25 @@ namespace Api.Controllers
         [ProducesResponseType(StatusCodes.Status201Created)]
         public  IActionResult auth([FromBody] ModelLogin usuario)
         {
+            IActionResult? Status =null;
             if (usuario == null)
             {
-
-                return Unauthorized();
+                Status = Unauthorized();
             }
             else
             {
-
                 var token = _service.auth(usuario);
-                
-                Response.Headers.Add("Authorization", $"Bearer {token}");
-                return Ok();
+                if ((token != Constants.CredencialesErroreneas) && (token != Constants.ErrorConexion))
+                {
+                    Response.Headers.Add("Authorization", $"Bearer {token}");
+                    Status = Ok();
+                }
+                else
+                {
+                    Status= Unauthorized();
+                }
             }
-            // return Ok(usuario);
+            return Status;
         }
     }
 }

@@ -10,3 +10,15 @@ C:\Users\javit\source\repos\AccessControl\obj\Debug\net6.0\AccessControl.dll
 C:\Users\javit\source\repos\AccessControl\obj\Debug\net6.0\refint\AccessControl.dll
 C:\Users\javit\source\repos\AccessControl\obj\Debug\net6.0\AccessControl.pdb
 C:\Users\javit\source\repos\AccessControl\obj\Debug\net6.0\ref\AccessControl.dll
+C:\Users\javit\source\repos\ApiGenerica\AccessControl\bin\Debug\net6.0\AccessControl.deps.json
+C:\Users\javit\source\repos\ApiGenerica\AccessControl\bin\Debug\net6.0\AccessControl.dll
+C:\Users\javit\source\repos\ApiGenerica\AccessControl\bin\Debug\net6.0\AccessControl.pdb
+C:\Users\javit\source\repos\ApiGenerica\AccessControl\obj\Debug\net6.0\AccessControl.csproj.AssemblyReference.cache
+C:\Users\javit\source\repos\ApiGenerica\AccessControl\obj\Debug\net6.0\AccessControl.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\javit\source\repos\ApiGenerica\AccessControl\obj\Debug\net6.0\AccessControl.AssemblyInfoInputs.cache
+C:\Users\javit\source\repos\ApiGenerica\AccessControl\obj\Debug\net6.0\AccessControl.AssemblyInfo.cs
+C:\Users\javit\source\repos\ApiGenerica\AccessControl\obj\Debug\net6.0\AccessControl.csproj.CoreCompileInputs.cache
+C:\Users\javit\source\repos\ApiGenerica\AccessControl\obj\Debug\net6.0\AccessControl.dll
+C:\Users\javit\source\repos\ApiGenerica\AccessControl\obj\Debug\net6.0\refint\AccessControl.dll
+C:\Users\javit\source\repos\ApiGenerica\AccessControl\obj\Debug\net6.0\AccessControl.pdb
+C:\Users\javit\source\repos\ApiGenerica\AccessControl\obj\Debug\net6.0\ref\AccessControl.dll

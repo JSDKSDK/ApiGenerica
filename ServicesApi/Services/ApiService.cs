@@ -1,8 +1,14 @@
 ﻿using AccessControl.Models;
 using AccessControl.Services;
+using DAOApi;
+using DeviceDetectorNET;
+using ModelsApi.Models;
 using ModelsSonarApi.Models;
+using Oracle.ManagedDataAccess.Client;
+using Oracle.ManagedDataAccess.Types;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,17 +18,85 @@ namespace ServicesApi.Services
     public class ApiService : IApiService
     {
         private readonly IJwtHandler _jwt;
-
-        public ApiService(IJwtHandler jwt)
+        private readonly ConexionOracle _conexionOracle;
+       
+        public ApiService(IJwtHandler jwt, ConexionOracle conexion)
         {
             _jwt = jwt;
+            _conexionOracle = conexion;
+          
         }
 
         public string auth(ModelLogin usuario)
         {
-            JsonWebToken token = _jwt.Create(usuario.Usuario);
-           // string token = "sdfsdf94154xdxxxrslyuefkeufn";
-            return token.AccessToken.ToString();
+            JsonWebToken token = new JsonWebToken();
+            try
+            {
+                if (_conexionOracle.openConnection())
+                {
+                    using (OracleCommand cmd = new OracleCommand())
+                    {
+
+                        List<OracleParameter> parameters = new List<OracleParameter>();
+                        parameters.Add(new OracleParameter("PA_NOEMPLEADO", OracleDbType.Varchar2, usuario.Usuario, ParameterDirection.Input));
+                        parameters.Add(new OracleParameter("PA_CONTRASENIA", OracleDbType.Varchar2, usuario.Password, ParameterDirection.Input));
+                        parameters.Add(new OracleParameter
+                        {
+                            ParameterName = "VL_POCURSOR",
+                            Direction = ParameterDirection.Output,
+                            OracleDbType = OracleDbType.RefCursor
+                        });
+                        parameters.Add(new OracleParameter
+                        {
+                            ParameterName = "VL_PIORESPONSECODE",
+                            Direction = ParameterDirection.Output,
+                            OracleDbType = OracleDbType.Int32
+                        });
+
+                        parameters.Add(new OracleParameter
+                        {
+                            ParameterName = "VL_PCORESPONSEMESSAG",
+                            Size = 32767,
+                            Direction = ParameterDirection.Output,
+                            OracleDbType = OracleDbType.Varchar2
+                        });
+
+                        OracleDataReader reader = _conexionOracle.ExcuteStoreProcedure_Table("PA_USUARIO.SP_VALIDATEUSER", 2, parameters);
+
+                        //string responseCode =parameters[3].Value.ToString();
+                        if (reader.Read())
+                        {
+                            token = _jwt.Create(usuario.Usuario);
+                            return token.AccessToken.ToString();
+                        }
+                        else
+                        {
+                            return Constants.CredencialesErroreneas;//Credenciales Incorrectas
+                        }
+
+                        //while (reader.Read())
+                        //{
+                        //    //string IDUSUARIO = reader.GetString(0);
+                        //    //string NOMBRE = reader.GetString(1);
+                        //    //string PATERNO = reader.GetString(2);
+                        //    //string MATERNO = reader.GetString(3);
+                        //    //int IDPERFIL = reader.GetInt32(4);
+                        //}
+
+                    }
+                }
+                else
+                {
+                    return Constants.ErrorConexion;// "Error De Conexion";
+                }
+
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
+
+           
         }
     }
 }

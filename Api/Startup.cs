@@ -6,6 +6,7 @@ using System.Text;
 using Microsoft.AspNetCore.Routing;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Extensions.DependencyInjection;
+using DAOApi;
 
 namespace Api
 {
@@ -24,6 +25,7 @@ namespace Api
             services.AddScoped<ITokenManager, TokenManager>();
             services.AddScoped<ICredentialManager, CredentialManager>();
             services.AddScoped<IJwtHandler, JwtHandler>();
+            services.AddTransient<ConexionOracle>();
             services.AddHttpContextAccessor();
             services.AddControllers();
 
@@ -45,6 +47,8 @@ namespace Api
                });
             services.Configure<JwtOptions>(jwtSection);
             services.Configure<AccessOptions>(_configuration.GetSection("access"));
+            services.Configure<ModelConexion>(_configuration.GetSection("ConnectionStrings"));
+
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
