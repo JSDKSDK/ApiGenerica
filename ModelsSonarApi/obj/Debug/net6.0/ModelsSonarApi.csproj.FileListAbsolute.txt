@@ -1,0 +1,12 @@
+C:\Users\javit\source\repos\ModelsSonarApi\bin\Debug\net6.0\ModelsSonarApi.deps.json
+C:\Users\javit\source\repos\ModelsSonarApi\bin\Debug\net6.0\ModelsSonarApi.dll
+C:\Users\javit\source\repos\ModelsSonarApi\bin\Debug\net6.0\ModelsSonarApi.pdb
+C:\Users\javit\source\repos\ModelsSonarApi\obj\Debug\net6.0\ModelsSonarApi.csproj.AssemblyReference.cache
+C:\Users\javit\source\repos\ModelsSonarApi\obj\Debug\net6.0\ModelsSonarApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\javit\source\repos\ModelsSonarApi\obj\Debug\net6.0\ModelsSonarApi.AssemblyInfoInputs.cache
+C:\Users\javit\source\repos\ModelsSonarApi\obj\Debug\net6.0\ModelsSonarApi.AssemblyInfo.cs
+C:\Users\javit\source\repos\ModelsSonarApi\obj\Debug\net6.0\ModelsSonarApi.csproj.CoreCompileInputs.cache
+C:\Users\javit\source\repos\ModelsSonarApi\obj\Debug\net6.0\ModelsSonarApi.dll
+C:\Users\javit\source\repos\ModelsSonarApi\obj\Debug\net6.0\refint\ModelsSonarApi.dll
+C:\Users\javit\source\repos\ModelsSonarApi\obj\Debug\net6.0\ModelsSonarApi.pdb
+C:\Users\javit\source\repos\ModelsSonarApi\obj\Debug\net6.0\ref\ModelsSonarApi.dll

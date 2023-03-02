@@ -1,0 +1,277 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\javit\\source\\repos\\ApiGenerica\\Api\\Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\javit\\source\\repos\\ApiGenerica\\AccessControl\\AccessControl.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\javit\\source\\repos\\ApiGenerica\\AccessControl\\AccessControl.csproj",
+        "projectName": "AccessControl",
+        "projectPath": "C:\\Users\\javit\\source\\repos\\ApiGenerica\\AccessControl\\AccessControl.csproj",
+        "packagesPath": "C:\\Users\\javit\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\javit\\source\\repos\\ApiGenerica\\AccessControl\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\javit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "DeviceDetector.NET.NetCore": {
+              "target": "Package",
+              "version": "[3.9.2.2, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.27.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.2.8, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.27.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\javit\\source\\repos\\ApiGenerica\\Api\\Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\javit\\source\\repos\\ApiGenerica\\Api\\Api.csproj",
+        "projectName": "Api",
+        "projectPath": "C:\\Users\\javit\\source\\repos\\ApiGenerica\\Api\\Api.csproj",
+        "packagesPath": "C:\\Users\\javit\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\javit\\source\\repos\\ApiGenerica\\Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\javit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\javit\\source\\repos\\ApiGenerica\\ModelsSonarApi\\ModelsApi.csproj": {
+                "projectPath": "C:\\Users\\javit\\source\\repos\\ApiGenerica\\ModelsSonarApi\\ModelsApi.csproj"
+              },
+              "C:\\Users\\javit\\source\\repos\\ApiGenerica\\ServicesApi\\ServicesApi.csproj": {
+                "projectPath": "C:\\Users\\javit\\source\\repos\\ApiGenerica\\ServicesApi\\ServicesApi.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.14, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\javit\\source\\repos\\ApiGenerica\\ModelsSonarApi\\ModelsApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\javit\\source\\repos\\ApiGenerica\\ModelsSonarApi\\ModelsApi.csproj",
+        "projectName": "ModelsApi",
+        "projectPath": "C:\\Users\\javit\\source\\repos\\ApiGenerica\\ModelsSonarApi\\ModelsApi.csproj",
+        "packagesPath": "C:\\Users\\javit\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\javit\\source\\repos\\ApiGenerica\\ModelsSonarApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\javit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\javit\\source\\repos\\ApiGenerica\\ServicesApi\\ServicesApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\javit\\source\\repos\\ApiGenerica\\ServicesApi\\ServicesApi.csproj",
+        "projectName": "ServicesApi",
+        "projectPath": "C:\\Users\\javit\\source\\repos\\ApiGenerica\\ServicesApi\\ServicesApi.csproj",
+        "packagesPath": "C:\\Users\\javit\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\javit\\source\\repos\\ApiGenerica\\ServicesApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\javit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\javit\\source\\repos\\ApiGenerica\\AccessControl\\AccessControl.csproj": {
+                "projectPath": "C:\\Users\\javit\\source\\repos\\ApiGenerica\\AccessControl\\AccessControl.csproj"
+              },
+              "C:\\Users\\javit\\source\\repos\\ApiGenerica\\ModelsSonarApi\\ModelsApi.csproj": {
+                "projectPath": "C:\\Users\\javit\\source\\repos\\ApiGenerica\\ModelsSonarApi\\ModelsApi.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
