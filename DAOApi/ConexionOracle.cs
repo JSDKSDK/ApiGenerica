@@ -192,13 +192,14 @@ namespace DAOApi
             return id_Tabla;
         }
 
-        public OracleDataReader ExcuteStoreProcedure_Table(string nombreSP, int opcion, List<OracleParameter> parameters)
+        public OracleDataReader ExcuteStoreProcedureAny(string nombreSP, List<OracleParameter> parameters)
         {
             OracleCommand oracleCommand = new OracleCommand(nombreSP, this.connection)
             {
                 CommandType = CommandType.StoredProcedure
             };
             this.AssignParametersGenerico(oracleCommand, parameters);
+
             return oracleCommand.ExecuteReader();
         }
 
