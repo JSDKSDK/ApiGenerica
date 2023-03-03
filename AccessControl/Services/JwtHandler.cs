@@ -56,48 +56,12 @@ namespace AccessControl.Services
             var jwt = new JwtSecurityToken(_jwtHeader, payload);
             var token = _jwtSecurityTokenHandler.WriteToken(jwt);
 
-            //_tokenManager.Activate(token);
-
             return new JsonWebToken
             {
                 AccessToken = token,
                 Expires = exp
             };
         }
-
-        public bool ValidateToken(string token)
-        {
-
-            var tokenHandler = new JwtSecurityTokenHandler();
-            TokenValidationParameters validationParameters = new TokenValidationParameters()
-            {
-                ValidIssuer = _jwtHeader.ToString(),
-                ValidateLifetime = true,
-                ValidateIssuerSigningKey = true,
-                // DELEGADO PERSONALIZADO PERA COMPROBAR
-                // LA CADUCIDAD EL TOKEN.
-                LifetimeValidator = this.LifetimeValidator,
-                IssuerSigningKey = _securityKey
-            };
-
-  
-
-            return false;
-        }
-        public bool LifetimeValidator(DateTime? notBefore,
-                                      DateTime? expires,
-                                      SecurityToken securityToken,
-                                      TokenValidationParameters validationParameters)
-        {
-            var valid = false;
-
-            if ((expires.HasValue && DateTime.UtcNow < expires)
-                && (notBefore.HasValue && DateTime.UtcNow > notBefore))
-            { valid = true; }
-
-            return valid;
-        }
-
     
     }
 }
