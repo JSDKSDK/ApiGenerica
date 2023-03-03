@@ -9,7 +9,7 @@ namespace ModelsApi.Models
     public class Constants
     {
         public const string ErrorConexion = "Error De Conexion";
-        public const string CredencialesErroreneas = "Credenciales Erroneas";
+        public const string CredencialesErroneas = "Credenciales Erroneas";
         public const string PeticionSinDatos = "Sin Datos Para Mostrar";
     }
     public class OraclePackage

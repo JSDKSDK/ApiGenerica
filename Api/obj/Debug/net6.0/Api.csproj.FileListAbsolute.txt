@@ -55,9 +55,6 @@ C:\Users\javit\source\repos\ApiGenerica\Api\obj\Debug\net6.0\Api.csproj.CoreComp
 C:\Users\javit\source\repos\ApiGenerica\Api\obj\Debug\net6.0\Api.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\javit\source\repos\ApiGenerica\Api\obj\Debug\net6.0\Api.RazorAssemblyInfo.cache
 C:\Users\javit\source\repos\ApiGenerica\Api\obj\Debug\net6.0\Api.RazorAssemblyInfo.cs
-C:\Users\javit\source\repos\ApiGenerica\Api\obj\Debug\net6.0\Api.dll
-C:\Users\javit\source\repos\ApiGenerica\Api\obj\Debug\net6.0\refint\Api.dll
-C:\Users\javit\source\repos\ApiGenerica\Api\obj\Debug\net6.0\Api.pdb
 C:\Users\javit\source\repos\ApiGenerica\Api\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\javit\source\repos\ApiGenerica\Api\bin\Debug\net6.0\appsettings.json
 C:\Users\javit\source\repos\ApiGenerica\Api\bin\Debug\net6.0\Api.staticwebassets.runtime.json
@@ -69,6 +66,8 @@ C:\Users\javit\source\repos\ApiGenerica\Api\bin\Debug\net6.0\Api.pdb
 C:\Users\javit\source\repos\ApiGenerica\Api\bin\Debug\net6.0\DeviceDetector.NET.NetCore.dll
 C:\Users\javit\source\repos\ApiGenerica\Api\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\javit\source\repos\ApiGenerica\Api\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\javit\source\repos\ApiGenerica\Api\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\javit\source\repos\ApiGenerica\Api\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
 C:\Users\javit\source\repos\ApiGenerica\Api\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
 C:\Users\javit\source\repos\ApiGenerica\Api\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
 C:\Users\javit\source\repos\ApiGenerica\Api\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
@@ -117,7 +116,8 @@ C:\Users\javit\source\repos\ApiGenerica\Api\obj\Debug\net6.0\scopedcss\Views\Sha
 C:\Users\javit\source\repos\ApiGenerica\Api\obj\Debug\net6.0\scopedcss\bundle\Api.styles.css
 C:\Users\javit\source\repos\ApiGenerica\Api\obj\Debug\net6.0\scopedcss\projectbundle\Api.bundle.scp.css
 C:\Users\javit\source\repos\ApiGenerica\Api\obj\Debug\net6.0\Api.csproj.CopyComplete
+C:\Users\javit\source\repos\ApiGenerica\Api\obj\Debug\net6.0\Api.dll
+C:\Users\javit\source\repos\ApiGenerica\Api\obj\Debug\net6.0\refint\Api.dll
+C:\Users\javit\source\repos\ApiGenerica\Api\obj\Debug\net6.0\Api.pdb
 C:\Users\javit\source\repos\ApiGenerica\Api\obj\Debug\net6.0\Api.genruntimeconfig.cache
 C:\Users\javit\source\repos\ApiGenerica\Api\obj\Debug\net6.0\ref\Api.dll
-C:\Users\javit\source\repos\ApiGenerica\Api\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\javit\source\repos\ApiGenerica\Api\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
