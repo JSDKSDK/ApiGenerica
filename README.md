@@ -57,7 +57,7 @@ Se crea clase ModelResponseBD para manipular la respuesta explicita de los SP de
 
 ## Creador
 Este proyecto es creado por el Ing. Javier Rayon Martinez.
-Lo libero bajo licencia (CC BY-NC-SA) (Se pide que si es utilizado de forma total o parcial), se comunique a mi persona y se de el reconimiento pertinente.
+Lo libero bajo licencia (CC BY-NC-SA) (Se pide que si es utilizado de forma total o parcial), se comunique a mi persona y se otorgue el reconocimiento pertinente.
 Autorizo el uso bajo esta licencia para fines de practica o educacion, no para uso comercial (salvo previa autorizacion de mi persona).
 
-## "Recolectar Datos es el primer paso a la sabiduria, pero compartir informacion es el primer paso a la comunidad" (linux IBM)
+## "Recolectar Datos es el primer paso a la sabiduria, pero compartir informacion es el primer paso a la comunidad" (Comercial IBM con referencia a Linux)
