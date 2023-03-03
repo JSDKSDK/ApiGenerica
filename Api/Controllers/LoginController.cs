@@ -25,7 +25,7 @@ namespace Api.Controllers
             else
             {
                 var token = _service.auth(usuario);
-                if ((token != Constants.CredencialesErroreneas) && (token != Constants.ErrorConexion))
+                if ((token != Constants.CredencialesErroneas) && (token != Constants.ErrorConexion))
                 {
                     Response.Headers.Add("Authorization", $"Bearer {token}");
                     Status = Ok();

@@ -11,14 +11,12 @@ namespace AccessControl.Services
     public class TokenMiddleware
     {
         public readonly RequestDelegate _next;
- 
 
         public TokenMiddleware(RequestDelegate next )
         {
             _next = next;
            
         }
-
         public void Initialize()
         {
             throw new NotImplementedException();
@@ -47,7 +45,6 @@ namespace AccessControl.Services
             else
                 context.Response.StatusCode = (int)HttpStatusCode.Unauthorized;
 
-            //await _next(context);
         }
     }
 }

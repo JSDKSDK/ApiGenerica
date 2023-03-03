@@ -15,29 +15,20 @@ namespace AccessControl.Services
     {
         private readonly ICredentialManager _manager;
         private readonly IHttpContextAccessor _accessor;
-        //    private readonly IOptions<JwtOptions> _jwtOptions;
         private readonly IOptions<AccessOptions> _accessOptions;
 
     public TokenManager(
             ICredentialManager manager,
             IHttpContextAccessor accessor,
-        //    IOptions<JwtOptions> jwtOptions,
         IOptions<AccessOptions> accessOptions
             )
         {
             _manager = manager;
             _accessor = accessor;
-            //_jwtOptions = jwtOptions;
             _accessOptions = accessOptions;
         }
         public async Task InvokeAsync(HttpContext context, RequestDelegate next)
         {
-            //if (!IsActive())
-            //{
-            //    context.Response.StatusCode = (int)HttpStatusCode.Unauthorized;
-            //    return;
-            //}
-
             await next(context);
         }
         //public bool Deactivate() => _manager.removeRegister(getCurrentIp());

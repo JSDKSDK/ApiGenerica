@@ -64,7 +64,6 @@ namespace ServicesApi.Services.ImplementacionApi
 
                         OracleDataReader reader = _conexionOracle.ExcuteStoreProcedureAny("PA_USUARIO.SP_VALIDATEUSER",parameters);
 
-                        //string responseCode =parameters[3].Value.ToString();
                         if (reader.Read())
                         {
                             token = _jwt.Create(usuario.Usuario);
@@ -72,23 +71,14 @@ namespace ServicesApi.Services.ImplementacionApi
                         }
                         else
                         {
-                            return Constants.CredencialesErroreneas;//Credenciales Incorrectas
+                            return Constants.CredencialesErroneas;
                         }
-
-                        //while (reader.Read())
-                        //{
-                        //    //string IDUSUARIO = reader.GetString(0);
-                        //    //string NOMBRE = reader.GetString(1);
-                        //    //string PATERNO = reader.GetString(2);
-                        //    //string MATERNO = reader.GetString(3);
-                        //    //int IDPERFIL = reader.GetInt32(4);
-                        //}
 
                     }
                 }
                 else
                 {
-                    return Constants.ErrorConexion;// "Error De Conexion";
+                    return Constants.ErrorConexion;
                 }
 
             }

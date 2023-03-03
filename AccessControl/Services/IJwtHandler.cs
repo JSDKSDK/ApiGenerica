@@ -9,6 +9,5 @@ namespace AccessControl.Services
 {    public interface IJwtHandler
     {
         JsonWebToken Create(string username);
-        bool ValidateToken(string token);
     }
 }

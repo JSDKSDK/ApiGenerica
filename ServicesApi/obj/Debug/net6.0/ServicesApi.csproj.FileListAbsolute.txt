@@ -20,9 +20,6 @@ C:\Users\javit\source\repos\ApiGenerica\ServicesApi\obj\Debug\net6.0\ServicesApi
 C:\Users\javit\source\repos\ApiGenerica\ServicesApi\obj\Debug\net6.0\ServicesApi.AssemblyInfoInputs.cache
 C:\Users\javit\source\repos\ApiGenerica\ServicesApi\obj\Debug\net6.0\ServicesApi.AssemblyInfo.cs
 C:\Users\javit\source\repos\ApiGenerica\ServicesApi\obj\Debug\net6.0\ServicesApi.csproj.CoreCompileInputs.cache
-C:\Users\javit\source\repos\ApiGenerica\ServicesApi\obj\Debug\net6.0\ServicesApi.dll
-C:\Users\javit\source\repos\ApiGenerica\ServicesApi\obj\Debug\net6.0\refint\ServicesApi.dll
-C:\Users\javit\source\repos\ApiGenerica\ServicesApi\obj\Debug\net6.0\ServicesApi.pdb
 C:\Users\javit\source\repos\ApiGenerica\ServicesApi\bin\Debug\net6.0\ServicesApi.deps.json
 C:\Users\javit\source\repos\ApiGenerica\ServicesApi\bin\Debug\net6.0\ServicesApi.dll
 C:\Users\javit\source\repos\ApiGenerica\ServicesApi\bin\Debug\net6.0\ServicesApi.pdb
@@ -33,4 +30,7 @@ C:\Users\javit\source\repos\ApiGenerica\ServicesApi\bin\Debug\net6.0\AccessContr
 C:\Users\javit\source\repos\ApiGenerica\ServicesApi\bin\Debug\net6.0\DAOApi.pdb
 C:\Users\javit\source\repos\ApiGenerica\ServicesApi\bin\Debug\net6.0\ModelsApi.pdb
 C:\Users\javit\source\repos\ApiGenerica\ServicesApi\obj\Debug\net6.0\ServicesApi.csproj.CopyComplete
+C:\Users\javit\source\repos\ApiGenerica\ServicesApi\obj\Debug\net6.0\ServicesApi.dll
+C:\Users\javit\source\repos\ApiGenerica\ServicesApi\obj\Debug\net6.0\refint\ServicesApi.dll
+C:\Users\javit\source\repos\ApiGenerica\ServicesApi\obj\Debug\net6.0\ServicesApi.pdb
 C:\Users\javit\source\repos\ApiGenerica\ServicesApi\obj\Debug\net6.0\ref\ServicesApi.dll
