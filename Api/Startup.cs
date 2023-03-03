@@ -30,6 +30,9 @@ namespace Api
             services.AddScoped<ICredentialManager, CredentialManager>();
             services.AddScoped<IJwtHandler, JwtHandler>();
             services.AddTransient<ConexionOracle>();
+
+            services.AddScoped<ListaDeOracleParameters>();
+
             services.AddHttpContextAccessor();
             services.AddControllers();
 

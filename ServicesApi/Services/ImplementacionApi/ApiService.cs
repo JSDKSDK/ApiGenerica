@@ -62,7 +62,7 @@ namespace ServicesApi.Services.ImplementacionApi
                             OracleDbType = OracleDbType.Varchar2
                         });
 
-                        OracleDataReader reader = _conexionOracle.ExcuteStoreProcedure_Table("PA_USUARIO.SP_VALIDATEUSER", 2, parameters);
+                        OracleDataReader reader = _conexionOracle.ExcuteStoreProcedureAny("PA_USUARIO.SP_VALIDATEUSER",parameters);
 
                         //string responseCode =parameters[3].Value.ToString();
                         if (reader.Read())
