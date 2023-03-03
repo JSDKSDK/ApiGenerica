@@ -191,53 +191,6 @@ namespace DAOApi
             string id_Tabla = oracleCommand.Parameters["var_idTabla"].Value.ToString();
             return id_Tabla;
         }
-        //public List<ModelResponseBD> ExcuteStoreProcedure_Table(string package,string nombreSP, int opcion, List<OracleParameter> parameters)
-        //{
-        //    List<ModelResponseBD> responseSP= new List<ModelResponseBD>();
-        //    try
-        //    {
-        //        OracleCommand oracleCommand = new OracleCommand(package + '.' + nombreSP, this.connection)
-        //        {
-        //            CommandType = CommandType.StoredProcedure
-        //        };
-
-        //        this.AssignParametersGenerico(oracleCommand, parameters);
-
-
-  
-        //        OracleDataReader reader = oracleCommand.ExecuteNonQuery();
-
-        //        //OracleDataReader reader = ((OracleRefCursor)oracleCommand.Parameters["VL_POCURSOR"].Value).GetDataReader();
-
-        //        //while (reader.Read())
-        //        //{
-        //        //    // Accede a las columnas del cursor
-        //        //    string IDUSUARIO = reader.GetString(0);
-        //        //    string NOMBRE = reader.GetString(1);
-        //        //    string PATERNO = reader.GetString(2);
-        //        //    string MATERNO = reader.GetString(3);
-        //        //    int IDPERFIL = reader.GetInt32(4);
-        //        //    //...
-        //        //}
-
-        //        //reader.Close();
-
-        //        //// Lee los parámetros de salida
-        //        //string responseCode =oracleCommand.Parameters["VL_PIORESPONSECODE"].Value.ToString();
-        //        //string responseMessage = oracleCommand.Parameters["VL_PCORESPONSEMESSAG"].Value.ToString();
-        //        ////...
-
-        //        //string id_Tabla = oracleCommand.Parameters[parameters[0].ToString()].Value.ToString();
-
-        //        return responseSP;
-
-        //    }
-        //    catch (OracleException ex)
-        //    {
-
-        //        throw;
-        //    }
-        //}
 
         public OracleDataReader ExcuteStoreProcedure_Table(string nombreSP, int opcion, List<OracleParameter> parameters)
         {

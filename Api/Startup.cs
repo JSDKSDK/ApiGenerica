@@ -1,12 +1,13 @@
 ﻿using AccessControl.Models;
 using AccessControl.Services;
 using Microsoft.IdentityModel.Tokens;
-using ServicesApi.Services;
 using System.Text;
 using Microsoft.AspNetCore.Routing;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Extensions.DependencyInjection;
 using DAOApi;
+using ServicesApi.Services.ImplementacionApi;
+using ServicesApi.Services.InterfacesApi;
 
 namespace Api
 {
@@ -20,7 +21,10 @@ namespace Api
 
             services.AddControllersWithViews();
             services.AddCors(o => o.AddPolicy("CorsPolicy", b => b.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader()));
+            //
             services.AddScoped<IApiService, ApiService>();
+            services.AddScoped<IApiUsuarios, ApiUsuarios>();
+
             services.AddScoped<IJwtHandler, JwtHandler>();
             services.AddScoped<ITokenManager, TokenManager>();
             services.AddScoped<ICredentialManager, CredentialManager>();

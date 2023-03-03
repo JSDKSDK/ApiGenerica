@@ -6,6 +6,7 @@ using ModelsApi.Models;
 using ModelsSonarApi.Models;
 using Oracle.ManagedDataAccess.Client;
 using Oracle.ManagedDataAccess.Types;
+using ServicesApi.Services.InterfacesApi;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -13,18 +14,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ServicesApi.Services
+namespace ServicesApi.Services.ImplementacionApi
 {
     public class ApiService : IApiService
     {
         private readonly IJwtHandler _jwt;
         private readonly ConexionOracle _conexionOracle;
-       
+
         public ApiService(IJwtHandler jwt, ConexionOracle conexion)
         {
             _jwt = jwt;
             _conexionOracle = conexion;
-          
+
         }
 
         public string auth(ModelLogin usuario)
@@ -96,7 +97,7 @@ namespace ServicesApi.Services
                 throw;
             }
 
-           
+
         }
     }
 }

@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using ModelsApi.Models;
 using ModelsSonarApi.Models;
-using ServicesApi.Services;
+using ServicesApi.Services.InterfacesApi;
 using System.Net;
 
 namespace Api.Controllers
